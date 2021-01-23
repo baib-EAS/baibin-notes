@@ -1,0 +1,13 @@
+# 20200123
+# command line
+# a detailed execute process
+gfortran -c main.f90
+gfortran main.o -o exe  #.o file is compiled output
+./exe
+
+# a quick way 
+gfortran main.f90 -o exe
+./exe
+
+# make command(later)
+
